@@ -232,7 +232,7 @@ For example, generate bootstrap 4.0 style navigation:
     {% endif %}
 {% endif %}
 
-{% set mainNavigation = pimcore_build_nav({active: document, root: navStartNode}) %} %}
+{% set mainNavigation = pimcore_build_nav({active: document, root: navStartNode}) %}
 
 {% set menuRenderer = pimcore_nav_renderer('menu') %}
 
